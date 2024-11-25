@@ -1,0 +1,30 @@
+body{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.banner{
+    background-image: url(../src/img/ImgInicial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 640px;
+    margin: 30px;
+}
+.video{
+    background-image:url(img/GtaVI.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 640px;
+    margin: 30px;
+}
+#mybutton{
+    -webkit-box-shadow: 0px 0px 0px 5px #660000, inset 0px -10px 27px -8px #A31925, -2px -5px 11px -8px rgba(0,0,0,0.08), -2px -5px 11px -8px rgba(0,0,0,0.08), -2px 10px 27px 16px rgba(0,0,0,0.34); 
+    box-shadow: inset 0px -10px 27px -8px #7c19a3, -2px -5px 11px -8px rgba(0,0,0,0.08), -2px -5px 11px -8px rgba(0,0,0,0.08), -2px 10px 27px 16px rgba(0,0,0,0.34);
+}
+#buttonlog{
+    -webkit-box-shadow: 0px 0px 0px 5px #660000, inset 0px -10px 27px -8px #A31925, -2px -5px 11px -8px rgba(0,0,0,0.08), -2px -5px 11px -8px rgba(0,0,0,0.08), -2px 10px 27px 16px rgba(0,0,0,0.34); 
+    box-shadow: inset 0px -10px 27px -8px #a39e19, -2px -5px 11px -8px rgba(0,0,0,0.08), -2px -5px 11px -8px rgba(0,0,0,0.08), -2px 10px 27px 16px rgba(0,0,0,0.34);
+}

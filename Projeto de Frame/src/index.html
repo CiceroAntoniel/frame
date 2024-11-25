@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Projeto de frame</title>
+</head>
+<body class="bg-black text-white uppercase">
+    <main class="flex bg-red-950 justify-between">
+        <div class="flex  gap-8 m-3">
+            <div>
+                <figure class="mt-2">
+                    <img src="../src/img/logo.svg" alt="logoRockStar">
+                </figure>
+            </div>
+            <div class="flex gap-8 items-end">
+                <div class="flex gap-2">
+                    <a href="#">Jogos</a>
+                    <div class=" flex justify-items-center">
+                        <img src="../src/img/Vectorjogo.svg" alt="">
+                    </div>
+                </div>
+               <div>
+                   <a href="#">Boletim</a>
+               </div>
+                <div>
+                    <a href="#">Vídeos</a>
+                </div>
+                <div>
+                   <a href="#">Downlaod</a>
+                </div>
+               <div class="flex gap-2">
+                    <a href="#">Loja</a>
+                    <div>
+                        <img src="../src/img/lojasuporte.svg" alt="">
+                    </div>
+               </div>
+               <div class="flex gap-2">
+                    <a href="#">Suporte</a>
+                    <div>
+                        <img src="../src/img/lojasuporte.svg" alt="">
+                    </div>
+               </div>
+            </div>
+        </div>
+        <div class="flex gap-8 m-4">
+           <a class="mt-2" href="https://signin.rockstargames.com/signin/user-form?cid=rsg">
+            <button id="buttonlog" class="bg-orange-700 px-8 py-2 rounded-md">Inicia sessão</button>
+           </a>
+            <img src="../src/img/lupa.svg" alt="lupa de navegação">
+        </div>
+    </main>
+
+    <section>
+
+        <div id="banner" class="banner pl-24">
+            <div class="text pt-12 w-80 ml-20 text-red-950">
+                <h2 id="banner-heading" class="text-3xl pt-13 font-semibold">Conheça a bela história do pulmão podre, Arthur Morgan e prepare o coração!</h2>
+                <button id="banner-button" class="text-2xl mt-10 p-5 font-bold border-black border-solid border-4 rounded-md hover:bg-red-950 hover:text-red-600">Saiba Mais</button>
+            </div>
+        </div>
+        
+        <div id="imagens" class="flex justify-center gap-5 text-center p-3 w-50">
+            <div class="imagem-container" data-background="ImgInicial.png" data-heading="Conheça a bela história do pulmão podre, Arthur Morgan e prepare o coração!">
+                <img class="cursor-pointer w-48 " src="../src/img/ImgInicial.png" alt="Red Dead Redemption 2">
+                <h3 class="p-3">Red Dead Redemption 2</h3>
+            </div>
+            <div class="imagem-container" data-background="ImgInicial2.png" data-heading="Relembre o clássico Red Dead Redemption" data-h2-color="text-yellow-500 text-3xl" data-button-color="bg-yellow-500 text-3xl text-black hover:bg-yellow-800">
+                <img class="cursor-pointer w-48" src="../src/img/ImgInicial2.png" alt="Red Dead Redemption">
+                <h3 class="p-3">Red Dead Redemption</h3>
+            </div>
+            <div class="imagem-container" data-background="ImgInicial3.png" data-heading="O inesquecível GTA San Andreas" data-h2-color="mt-20 text-green-600 text-4xl" data-button-color="bg-green-400 text-green-600 hover:bg-green-800">
+                <img class="cursor-pointer w-48" src="../src/img/ImgInicial3.png" alt="San Andreas">
+                <h3 class="p-3">San Andreas</h3>
+            </div>
+            <div class="imagem-container" data-background="ImgInicial4.png" data-heading="Explore o universo de GTA V" data-h2-color="mt-14 text-blue-600 text-4xl" data-button-color=" bg-blue-500 text-3xl mt-20 text-blue-700 hover:bg-gray-800">
+                <img class="cursor-pointer w-48" src="../src/img/ImgInicial4.png" alt="GTA V">
+                <h3 class="p-3">GTA V</h3>
+            </div>
+            <div class="imagem-container" data-background="ImgInicial5.png" data-heading="Mergulhe na ação de GTA Online" data-h2-color="text-4xl text-purple-800" data-button-color="bg-purple-600 text-white hover:bg-purple-800">
+                <img class="cursor-pointer w-48" src="../src/img/ImgInicial5.png" alt="GTA Online">
+                <h3 class="p-3">GTA Online</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="video pl-24" >
+            <div class="ml-24 pt-32 text-4xl">
+                <h2 class="text-7xl pt-20 font-bold">1º Trailer</h2>
+                    <button id="mybutton" class="font-semibold mt-14 px-10 py-4 bg-violet-950 text-white rounded-md hover:bg-violet-800 ">Assita Agora!</button>
+            </div>
+        </div>
+
+        <div>
+            <ul class="list-none flex justify-center gap-5" >
+                <li class=" bg-white w-48 h-4 rounded-xl hover:bg-gray-500"></li>
+                <li class="bg-white w-48 h-4 rounded-xl hover:bg-gray-500"></li>
+                <li class="bg-white w-48 h-4 rounded-xl hover:bg-gray-500"></li>
+                <li class="bg-white w-48 h-4 rounded-xl hover:bg-gray-500"></li>
+            </ul>
+        </div>
+
+        <div class="bg-zinc-950 flex flex-col justify-center mt-10" >
+
+            <h2 class=" text-center p-10 text-3xl">RockStar Games</h2>
+
+            <div class="grid grid-cols-5 gap-4 p-10 justify-items-center ">
+
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/bully.png" alt="">
+                    <h3 class=" text-center">bully</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/AndreasSan.png" alt="">
+                    <h3 class=" text-center">San Andreas</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/RedOnline.png" alt="">
+                    <h3 class=" text-center">Red Dead Online</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer"> 
+                    <img src="../src/img/Trilogy.png" alt="">
+                    <h3 class=" text-center">The Trilogy</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/Maxpayne.png" alt="">
+                    <h3 class=" text-center"> Max Payne 3</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/LAnoire.png" alt="">
+                    <h3 class=" text-center">L.A. Noire</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/MClosangeles.png" alt="">
+                    <h3 class=" text-center">Mid Night Club Los Angeles</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/GTAonline (1).png" alt="">
+                    <h3 class=" text-center"> GTA Online</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/Undead.png" alt="">
+                    <h3 class=" text-center">Undead Nightmare</h3>
+                </div>
+                <div class="grid-rows-1 w-48 flex flex-col justify-center gap-2 cursor-pointer">
+                    <img src="../src/img/beaterator.png" alt="">
+                    <h3 class=" text-center">Beaterator</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="text-xl">
+        <div> 
+
+            <div class="flex justify-between m-8 mt-16">
+
+                <div class="flex gap-5 list-none underline font-bold p-2">
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Empregos</a>
+                    </li>
+                    <li>
+                        <a href="">Community Guidelines</a>
+                    </li>
+                    <li>
+                        <a href="">Inscrever-se</a>
+                    </li>
+                </div>
+
+                <div class="flex gap-4">
+                    <img class="w-6" src="../src/img/mundo.svg" alt="">
+                    <div class="mt-2">
+                        <select class="bg-black">
+                            <option>Brazil</option>
+                            <option>English</option>
+                            <option>spanish</option>
+                         </select>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="flex justify-between m-8 mt-32">
+                <div class="flex text-zinc-600 flex-col gap-5 list-none font-bold p-2">
+                    <li>
+                        <a href="">Corporativo</a>
+                    </li>
+                    <li>
+                        <a href="">Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="">Cookie Settings-se</a>
+                    </li>
+                    <li>
+                        <a href="">POLITICA DA COOKIES-ROCKSTAR GAME</a>
+                    </li>
+                    <li>
+                        <a href="">Aviso Legal</a>
+                    </li>
+                    <li>
+                        <a href="">Não venda a minha informação</a>
+                    </li>
+                </div>
+
+                <div class="flex gap-8 list-none justify-items-center justify-items-end">
+                    <li class="cursor-pointer">
+                        <a href="https://x.com/rockstargames">
+                            <img src="../src/img/twiter (2).svg" alt="">
+                        </a>
+                    <li class="cursor-pointer">
+                        <a href="https://www.facebook.com/rockstargames">
+                            <img src="../src/img/facebook (1).svg" alt="">
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a href="https://www.youtube.com/@RockstarGames">
+                            <img src="../src/img/youtube (1).svg" alt="">
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a href="https://www.instagram.com/rockstargames/">
+                            <img src="../src/img/instagram (1).svg" alt="">
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                       <a href="https://www.twitch.tv/rockstargames">
+                            <img src="../src/img/menssagem.svg" alt="">
+                       </a>
+                    </li>
+                </div>
+ 
+            </div>
+
+            <div class="flex justify-between m-8 mb-22 mt-40 ">
+                <h2>Rockstar Games</h2>
+                <div class="flex  gap-5 list-none font-bold p-2">
+                    <li>
+                        <a href="">New York</a>
+                    </li>
+                    <li>
+                        <a href="">london</a>
+                    </li>
+                    <li>
+                        <a href="">Paris</a>
+                    </li>
+                    <li>
+                        <a href="">Bogotá</a>
+                    </li>
+                </div>
+
+                <figure>
+                    <img src="../src/img/MCMXCVIII.svg" alt="">
+                </figure>
+
+            </div>
+
+        </div>
+    </footer>
+<script src="../src/js.js"></script>
+</body>
+</html>
